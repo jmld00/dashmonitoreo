@@ -1,3 +1,7 @@
+import random
+import pandas as pd
+import dash
+from dash.dependencies import Input, Output
 from dash import html
 from dash import dcc
 import dash_bootstrap_components as dbc
