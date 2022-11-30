@@ -83,7 +83,6 @@ sidebar = html.Div([
 
     html.Div(html.H6(f'{update}', className= 'text-center', style= {'color': '#ffffff'}),
     style={'padding': '0px 0px 0px 0px'}),
-            month_format='MM/DD/YYYY,
 
     html.Hr(style={'color': '#ffffff', 'height': '2px'}),
 
