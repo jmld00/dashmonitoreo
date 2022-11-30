@@ -102,7 +102,7 @@ sidebar = html.Div([
             with_portal=True,
             number_of_months_shown = 3,
             style={'fontSize': 5, 'color': 'red'}
-        )], style={'padding': '0.5rem 0.5rem 0.5rem 0.5rem'}),
+        )], style={'padding': '0.5rem 0.5rem 0.5rem 0.5rem', 'fontSize': 10}}),
 
     html.Div(
         [html.Div(html.H6('Familia', className= 'text-center text-white'),
