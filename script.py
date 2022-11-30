@@ -89,7 +89,7 @@ sidebar = html.Div([
 
     html.Div(
         [html.Div(html.H6('Fecha', className= 'text-center text-white'),
-        style={'padding': '0px 0px 0px 0px', 'color': '#ffffff'}),
+        style={'padding': '0px 0px 0px 0px', 'color': '#ffffff', 'fontSize': 10}),
         dcc.DatePickerRange(
             id='ddl_x',
             month_format='MM/DD/YYYY',
