@@ -79,12 +79,12 @@ sidebar = html.Div([
     html.Div(html.H6('Última actualización', className= 'text-center', style= {'color': '#ffffff', 'fontSize': 10}),
     style={'padding': '0px 0px 0px 0px'}),
 
-    html.Hr(style={'color': '#ffffff', 'height': '2px'}),
+    html.Hr(style={'color': '#ffffff', 'height': '2px', 'fontSize': 10}),
 
-    html.Div(html.H6(f'{update}', className= 'text-center', style= {'color': '#ffffff'}),
+    html.Div(html.H6(f'{update}', className= 'text-center', style= {'color': '#ffffff', 'fontSize': 10}),
     style={'padding': '0px 0px 0px 0px'}),
 
-    html.Hr(style={'color': '#ffffff', 'height': '2px'}),
+    html.Hr(style={'color': '#ffffff', 'height': '2px', 'fontSize': 10}),
 
 
     html.Div(
