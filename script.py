@@ -145,7 +145,7 @@ sidebar = html.Div([
         style={'width': '100%'},
         maxHeight= 50,
         clearable=False
-    )], style={'padding': '0.5rem 0.5rem 0.5rem 0.5rem'}),
+    )], style={'padding': '0.25rem 0.25rem 0.25rem 0.25rem'}),
     
 ], style=sidebar_style)
 
